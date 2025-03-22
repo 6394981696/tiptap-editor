@@ -1,0 +1,55 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: 'Inter', sans-serif;
+}
+
+.editor-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.toolbar button {
+  padding: 6px 10px;
+  border: none;
+  background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toolbar button:hover {
+  background: linear-gradient(to bottom, #e0e0e0, #cfcfcf);
+}
+
+select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.editor-box {
+  border: 2px solid #d1d5db;
+  min-height: 200px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  transition: border 0.3s ease;
+}
+
+.editor-box:focus {
+  border-color: #2563eb;
+  outline: none;
+}
